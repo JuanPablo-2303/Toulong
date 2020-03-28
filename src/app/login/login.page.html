@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-toolbar color="danger">
+        <ion-title>Login</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+        <ion-label>
+            Correo
+        </ion-label>
+        <ion-input type="text" [(ngModel)]="user.email">
+        </ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>
+            Contraseña
+        </ion-label>
+        <ion-input type="text" [(ngModel)]="user.password">
+        </ion-input>
+    </ion-item>
+
+    <ion-item-divider>
+        <ion-button size="default" color="danger" fill="outline" (click)="onLogin()">Iniciar Sesión</ion-button>
+        <ion-button size="default" color="danger" fill="outline" href="/register">Nuevo usuario</ion-button>
+    </ion-item-divider>
+
+</ion-content>
