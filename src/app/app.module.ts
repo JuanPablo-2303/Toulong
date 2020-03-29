@@ -15,11 +15,14 @@ import { environment } from '../environments/environment';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule,
-     IonicModule.forRoot(),
-      AppRoutingModule,
-      AngularFireModule.initializeApp(environment.firebaseConfig),
-      AngularFireAuthModule
+  imports: 
+  [
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireAuthModule,
+
     ],
   providers: [
     StatusBar,

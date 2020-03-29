@@ -1,5 +1,7 @@
 {
   "name": "tulong",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
