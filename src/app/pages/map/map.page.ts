@@ -22,31 +22,73 @@ export class MapPage implements OnInit
   markers: Marker[] = [
     {
       position: {
-        lat: 21.166038,
-        lng: -86.914743,
+        lat: 21.111510,
+        lng: -86.933902,
       },
-      title: 'Prado Norte'
+      title: 'Valle Verde'
     },
     {
       position: {
-        lat: 21.145970,
-        lng: -86.913125,
+        lat: 21.087354,
+        lng: -86.849371,
+      },
+      title: 'Alfredo Bonfil'
+    },
+    {
+      position: {
+        lat: 21.106945,
+        lng: -86.961989,
+      },
+      title: 'Tres Reyes'
+    },
+    {
+      position: {
+        lat: 21.132678,
+        lng: -86.897779,
+      },
+      title: 'El pedregal'
+    },
+    {
+      position: {
+        lat: 21.163029,
+        lng: -86.907349,
+      },
+      title: 'Cuna Maya'
+    },
+    {
+      position: {
+        lat: 21.145900,
+        lng: -86.913264,
       },
       title: 'Villas Otoch Paraiso'
     },
     {
       position: {
-        lat: 4.676802158355713,
-        lng: -74.04825592041016,
+        lat: 21.198740,
+        lng: -86.830721,
       },
-      title: 'Parque la 93'
+      title: '237'
     },
     {
       position: {
-        lat: 4.6554284,
-        lng: -74.1094989,
+        lat: 21.150290,
+        lng: -86.914282,
       },
-      title: 'Maloka'
+      title: 'Villas Otoch'
+    },
+    {
+      position: {
+        lat: 21.195309,
+        lng: -86.880631,
+      },
+      title: 'Villas del Mar Plus'
+    },
+    {
+      position: {
+        lat: 21.196147,
+        lng: -86.838883,
+      },
+      title: 'Rancho Viejo<'
     },
   ];
 

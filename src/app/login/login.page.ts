@@ -18,8 +18,8 @@ user : User = new User();
   async onLogin(){
   const user = await this.authSvc.onLogin(this.user);
   if(user){
-    console.log('ingresandi');
-    this.router.navigateByUrl('/');
+    console.log('ingresando');
+    this.router.navigateByUrl('/tabs');
   }
   }
 }
