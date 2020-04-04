@@ -5,18 +5,31 @@
 </ion-header>
 
 <ion-content padding>
+    <div class="container py-5">
+        <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(assets/images/fondo.jpg);">
+          <h2 class="mb-4">
+            ¡Hola Bienvenido!
+          </h2>
+          <p class="mb-4">
+            Contribuir con las personas con información de las campañas que se llevaran a cabo
+            Facilitar el acceso de la información de los acontecimientos más recientes.
+            Dar a conocer las colonias con bajos recursos de Quintana Roo.
+          </p>
+          
+        </div>
+      </div>
     <ion-item>
         <ion-label>
-            Correo
+            Correo:
         </ion-label>
         <ion-input type="text" [(ngModel)]="user.email">
         </ion-input>
     </ion-item>
     <ion-item>
         <ion-label>
-            Contraseña
+            Contraseña:
         </ion-label>
-        <ion-input type="text" [(ngModel)]="user.password">
+        <ion-input type="password" [(ngModel)]="user.password">
         </ion-input>
     </ion-item>
 
@@ -24,5 +37,4 @@
         <ion-button size="default" color="danger" fill="outline" (click)="onLogin()">Iniciar Sesión</ion-button>
         <ion-button size="default" color="danger" fill="outline" href="/register">Nuevo usuario</ion-button>
     </ion-item-divider>
-
 </ion-content>

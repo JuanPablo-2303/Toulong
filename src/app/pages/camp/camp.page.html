@@ -1,0 +1,28 @@
+
+<ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Nueva Campaña</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<div id="container">
+    <ion-item>
+        <ion-label>Nombre de la Campaña:</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.nombre"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Descipción:</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.descripcion"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Dirección:</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.direccion"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Fecha:</ion-label>
+        <ion-input type="text" [(ngModel)]="todo.fecha"></ion-input>
+      </ion-item>
+  </div>
+  
+</ion-content>
