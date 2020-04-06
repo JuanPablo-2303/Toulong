@@ -35,7 +35,11 @@ const routes: Routes = [
   {
     path: 'camp',
     loadChildren: () => import('./pages/camp/camp.module').then( m => m.CampPageModule)
+  },  {
+    path: 'chatbot',
+    loadChildren: () => import('./pages/chatbot/chatbot.module').then( m => m.ChatbotPageModule)
   },
+
 
   
 

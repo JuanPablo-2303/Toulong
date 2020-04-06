@@ -58,6 +58,16 @@ const routes: Routes = [
           }
         ]
       },
+      {
+        path: 'bot',
+        children:[
+          {
+            path: '',
+            loadChildren: () =>
+              import('../chatbot/chatbot.module').then(m => m.ChatbotPageModule)
+          }
+        ]
+      },
     ]
   }
 ];
